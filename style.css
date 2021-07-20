@@ -1,0 +1,57 @@
+body {
+    max-width: 100%;
+    background-image: url(./img/sun.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    color: #000;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px blue;
+}
+
+input {
+    padding: 4px 6px;
+    margin: 2px;
+    border: 1px solid rgb(15, 150, 255);
+}
+
+.btn1 {
+    width: 50%;
+    background-color: rgb(15, 150, 255);
+    color: rgb(255, 255, 255);
+    padding: 5px 5px;
+    margin: 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn2 {
+    width: 25%;
+    background-color: rgb(211, 97, 15);
+    padding: 2px 2px;
+    margin: 2px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+div {
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.boxzone {
+    text-align: center;
+    border: 5px solid black;
+    margin: 25px 25px 10px 10px;
+    padding: 20px  10px 10px 10px;
+}
